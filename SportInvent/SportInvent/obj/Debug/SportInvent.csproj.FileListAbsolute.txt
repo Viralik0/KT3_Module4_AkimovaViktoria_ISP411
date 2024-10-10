@@ -1,0 +1,15 @@
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\bin\Debug\SportInvent.exe.config
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\bin\Debug\SportInvent.exe
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\bin\Debug\SportInvent.pdb
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.csproj.AssemblyReference.cache
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\MainWindow.g.cs
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\App.g.cs
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent_MarkupCompile.cache
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent_MarkupCompile.lref
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\MainWindow.baml
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.g.resources
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.Properties.Resources.resources
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.csproj.GenerateResource.cache
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.csproj.CoreCompileInputs.cache
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.exe
+C:\Users\comcuru\Desktop\123\SportInvent\SportInvent\obj\Debug\SportInvent.pdb
