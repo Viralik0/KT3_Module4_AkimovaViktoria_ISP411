@@ -17,11 +17,10 @@
         <Grid Grid.Row="0" 
           Background="#FF76E383">
             <Image Source="/sourse/logo.png" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <TextBlock FontFamily="Comic Sans MS"  Margin="92,27,381,28" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" FontSize="16" Width="319">Прокат спортивного инвентаря</TextBlock>
+            <TextBlock FontFamily="Comic Sans MS" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Center">Прокат спортивного инвентаря</TextBlock>
         </Grid>
-        <Grid Grid.Row="1" 
-              Background="White" Cursor=""/>
+        <Page Grid.Row="1" 
+              Background="White" />
 
     </Grid>
-
 </Window>

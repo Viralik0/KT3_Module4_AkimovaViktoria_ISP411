@@ -67,24 +67,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="db1.cs">
+    <Compile Include="db\db1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
-    <Compile Include="gender.cs">
+    <Compile Include="db\gender.cs">
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
-    <Compile Include="human.cs">
+    <Compile Include="db\human.cs">
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
-    <Compile Include="sysdiagrams.cs">
+    <Compile Include="db\sysdiagrams.cs">
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
-    <Compile Include="type_enter.cs">
+    <Compile Include="db\type_enter.cs">
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
-    <Compile Include="user.cs">
+    <Compile Include="db\user.cs">
       <DependentUpon>db1.tt</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -95,12 +95,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="db1.Context.cs">
+    <Compile Include="db\db1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>db1.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="db1.Designer.cs">
+    <Compile Include="db\db1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>db1.edmx</DependentUpon>
@@ -109,8 +109,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="pages\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pages\ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -128,11 +135,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="db1.edmx">
+    <EntityDeploy Include="db\db1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>db1.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="db1.edmx.diagram">
+    <None Include="db\db1.edmx.diagram">
       <DependentUpon>db1.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
@@ -149,12 +156,12 @@
     <Resource Include="sourse\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="db1.Context.tt">
+    <Content Include="db\db1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>db1.Context.cs</LastGenOutput>
       <DependentUpon>db1.edmx</DependentUpon>
     </Content>
-    <Content Include="db1.tt">
+    <Content Include="db\db1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>db1.edmx</DependentUpon>
       <LastGenOutput>db1.cs</LastGenOutput>
